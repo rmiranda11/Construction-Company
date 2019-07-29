@@ -1,0 +1,57 @@
+.bg{
+    width:50%;
+    height:50%;
+}
+.carousel{
+    background-color: transparent;
+}
+.img{
+    width: 61rem;
+    height:16.875rem;
+}
+
+.logo{
+    width: 10rem;
+    height: 6rem;
+    margin-left: 1rem;
+}
+
+.nav{
+    /* background-color: white; */
+    height:8rem;
+    width:61rem;
+    /* border:groove #104bad;
+    border-width: .3rem .3rem 0 .3rem; */
+    border-bottom: none;
+
+}
+
+.navbar-toggler-icon{
+    width:2rem;
+    height:2rem;
+}
+
+.services{
+    background-color: white;
+}
+
+.wrapper{
+    width:61rem;
+    background-color: transparent;
+    border:groove .3rem #104bad;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 354px;
+    width: 454px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 354px;
+    width: 454px;
+}
+
