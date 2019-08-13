@@ -1,9 +1,13 @@
+
+
 .bg{
-    width:50%;
-    height:50%;
+    background-color: #0a6b01;
+    /* width:50%;
+    height:50%; */
 }
 .carousel{
     background-color: transparent;
+    padding:1rem;
 }
 .img{
     width: 61rem;
@@ -17,7 +21,7 @@
 }
 
 .nav{
-    /* background-color: white; */
+    background-color: white;
     height:8rem;
     width:61rem;
     /* border:groove #104bad;
@@ -37,10 +41,12 @@
 
 .wrapper{
     width:61rem;
-    background-color: transparent;
-    border:groove .3rem #104bad;
+    /* background-color: transparent;
+    border:groove .3rem #104bad; */
 }
 
+
+/* MAP! */
 .mapouter {
     position: relative;
     text-align: right;
