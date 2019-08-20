@@ -50,7 +50,7 @@ hr{
 .titleTwo{
     font-size:2.3rem;
     font-weight:bold;
-    margin:1rem 2rem 0rem;
+    margin:1rem 2rem -1rem;
     text-shadow: .1rem .1rem black;
     color: green;
     font-family: 'PT Sans', sans-serif;
@@ -113,9 +113,10 @@ nav ul {
     transition: 1s;
 }
 
-nav.black ul {
-    background: white;
+nav.black ul{
+    background: rgb(255, 255, 255);
     opacity: 50%;
+    
 }
 
 nav ul li {
@@ -150,7 +151,7 @@ nav ul li a {
     /* float:left; */
     text-shadow: .1rem .1rem white;
     margin: 8px 350px;
-    color: green;
+    color: black;
     font-weight: bold;
     font-size: 2.5rem;
     letter-spacing: 2px;
