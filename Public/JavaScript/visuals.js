@@ -123,12 +123,15 @@ $(document)
   // ----------------------------------------------
 
 
+  //---------------- On Click Functions for Menu-----------------
+
   $("#portfolio").click(function(){
       $(".portfolio").show();
-      $("#portfolio").hide();
+      // $("#portfolio").hide();
       $(".content").hide();
-      $("#home").show();
-
+      // $("#home").show();
+      $("nav ul").toggleClass("showing");
+      console.log("clicked");
       $('html,body').animate({
             scrollTop: $(".portfolio").offset().top},
             'slow');
@@ -139,6 +142,12 @@ $(document)
       $(".portfolio").hide();
       $("#portfolio").show();
       $(".content").show();
-      $("#home").hide();
-
+      // $("#home").hide();
+      $("nav ul").toggleClass("showing");
   });
+
+  $("#contact").click(function(){
+      $("nav ul").toggleClass("showing");
+  });
+
+  //--------------------------------------------------------\\
