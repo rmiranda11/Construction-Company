@@ -120,7 +120,7 @@ $(document)
 
 
 
-  // ----------------------------------------------
+  // ------------------- End Portfolio ---------------------------
 
 
   //---------------- On Click Functions for Menu-----------------
@@ -133,7 +133,7 @@ $(document)
       $("nav ul").toggleClass("showing");
       console.log("clicked");
       $('html,body').animate({
-            scrollTop: $(".portfolio").offset().top},
+            scrollTop: $(".titleTwo").offset().top},
             'slow');
       
   });
